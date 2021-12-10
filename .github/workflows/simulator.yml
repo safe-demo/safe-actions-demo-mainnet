@@ -17,7 +17,5 @@ jobs:
         with:
           check-target: ${{ steps.target.outputs.value }}
           node-url: ${{ secrets.JSON_RPC_NODE }}
-          safe-address: ${{ secrets.TARGET_SAFE }}
-          service-url: ${{ secrets.SERVICE_URL }}
           fail-on-unknown-delegatecall: 'false'
           simulate-tx: 'true'
