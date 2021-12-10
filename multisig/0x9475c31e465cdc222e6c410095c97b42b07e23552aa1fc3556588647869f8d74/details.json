@@ -1,0 +1,41 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "value": "0",
+      "data": null,
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 0,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 29,
+      "executionDate": null,
+      "submissionDate": "2021-07-19T09:57:13.922157Z",
+      "modified": "2021-07-19T09:57:13.982555Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0x9475c31e465cdc222e6c410095c97b42b07e23552aa1fc3556588647869f8d74",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"name\":\"ParaSwap\",\"url\":\"https://paraswap.io\"}",
+      "dataDecoded": null,
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x9F87C1aCaF3Afc6a5557c58284D9F8609470b571",
+            "submissionDate": "2021-07-19T09:57:13.982555Z",
+            "transactionHash": null,
+            "signature": "0x76358db41ef9b2f2313688a042b587b74e42121648eeb8db8c1418d177ebf3d1457e8ee0543f4349b300e7ec3458981c26e882d9a698916f850635c61429a3de1c",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
