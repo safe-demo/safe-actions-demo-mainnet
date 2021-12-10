@@ -1,0 +1,41 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "value": "0",
+      "data": null,
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 43808,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 21,
+      "executionDate": null,
+      "submissionDate": "2021-02-22T17:15:28.822245Z",
+      "modified": "2021-02-22T17:15:28.822245Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0xb11c0fcb08366af649ea67f7ec92b32c6bf83ceeb634eac7c922852d885995e9",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"name\":\"Balancer Exchange\",\"url\":\"https://ipfs.io/ipfs/QmRb2VfPVYBrv6gi2zDywgVgTg3A19ZCRMqwL13Ez5f5AS\"}",
+      "dataDecoded": null,
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x8712128BEA09C9687Df05A5D692F3750F8086C81",
+            "submissionDate": "2021-02-22T17:15:28.838837Z",
+            "transactionHash": null,
+            "signature": "0x0ffd27272ec47554af83abb1401b0ca9d27e7acfe84df1b12f87ec02b3f85f2d37d584f78ebed7ad9324b2099e86f7f245f6fa2f6763f3764ed97ef5f929ce521b",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
