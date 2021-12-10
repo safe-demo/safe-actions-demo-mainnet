@@ -1,0 +1,23 @@
+name: "Safe Tx Simulation"
+on: [ push ]
+
+jobs:
+  simulator:
+    runs-on: ubuntu-latest
+    if: github.ref != 'refs/heads/main'
+    steps:
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=value;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: target
+      - name: "Safe Tx Simulation"
+        uses: rmeissner/safe-simulator-gh-action@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          check-target: ${{ steps.target.outputs.value }}
+          node-url: ${{ secrets.JSON_RPC_NODE }}
+          safe-address: ${{ secrets.TARGET_SAFE }}
+          service-url: ${{ secrets.SERVICE_URL }}
+          fail-on-unknown-delegatecall: 'false'
+          simulate-tx: 'true'
