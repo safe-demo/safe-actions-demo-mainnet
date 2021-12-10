@@ -1,0 +1,41 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "value": "0",
+      "data": null,
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 43808,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 20,
+      "executionDate": null,
+      "submissionDate": "2021-02-22T17:15:18.782218Z",
+      "modified": "2021-02-22T17:15:18.782218Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0xaed54190962dce2c448391841fcd7730eb23ac18c5fa2a7896ac9074bf38f127",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"name\":\"WalletConnect\",\"url\":\"https://ipfs.io/ipfs/QmWwSuByB3B3hLU5ita3RQgiSEDYtBr5LjjDCRGb8YqLKF\"}",
+      "dataDecoded": null,
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x8712128BEA09C9687Df05A5D692F3750F8086C81",
+            "submissionDate": "2021-02-22T17:15:18.798558Z",
+            "transactionHash": null,
+            "signature": "0x7dec7a1c46320f9bc4b62fe22e6ad34fe1f54b08c39637d064d104def4f3c812591ad2da837f5d9049d74e038811f76fcb33ac739e7ef866f696abdc9e55e1f51b",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
