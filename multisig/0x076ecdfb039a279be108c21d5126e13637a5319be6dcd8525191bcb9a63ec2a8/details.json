@@ -1,0 +1,73 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0x8D29bE29923b68abfDD21e541b9374737B49cdAD",
+      "value": "0",
+      "data": "0x8d80ff0a0000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000009900dcd33426ba191383f1c9b431a342498fdac734880000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000004458c22be7000000000000000000000000ff501b324dc6d78dc9f983f140b9211c3edb4dc7000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "operation": 1,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 252231,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 20,
+      "executionDate": null,
+      "submissionDate": "2020-12-14T15:42:30.351798Z",
+      "modified": "2020-12-14T15:42:30.351798Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0x076ecdfb039a279be108c21d5126e13637a5319be6dcd8525191bcb9a63ec2a8",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"url\":\"https://ipfs.io/ipfs/QmWwSuByB3B3hLU5ita3RQgiSEDYtBr5LjjDCRGb8YqLKF\",\"name\":\"WalletConnect\"}",
+      "dataDecoded": {
+         "method": "multiSend",
+         "parameters": [
+            {
+               "name": "transactions",
+               "type": "bytes",
+               "value": "0x00dcd33426ba191383f1c9b431a342498fdac734880000000000000000000000000000000000000000000000000de0b6b3a7640000000000000000000000000000000000000000000000000000000000000000004458c22be7000000000000000000000000ff501b324dc6d78dc9f983f140b9211c3edb4dc70000000000000000000000000000000000000000000000000000000000000000",
+               "valueDecoded": [
+                  {
+                     "operation": 0,
+                     "to": "0xDcD33426BA191383f1c9B431A342498fdac73488",
+                     "value": "1000000000000000000",
+                     "data": "0x58c22be7000000000000000000000000ff501b324dc6d78dc9f983f140b9211c3edb4dc70000000000000000000000000000000000000000000000000000000000000000",
+                     "dataDecoded": {
+                        "method": "depositETH",
+                        "parameters": [
+                           {
+                              "name": "onBehalfOf",
+                              "type": "address",
+                              "value": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7"
+                           },
+                           {
+                              "name": "referralCode",
+                              "type": "uint16",
+                              "value": "0"
+                           }
+                        ]
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x80F59C1D46EFC1Bb18F0AaEc132b77266f00Be9a",
+            "submissionDate": "2020-12-14T15:42:30.375058Z",
+            "transactionHash": null,
+            "signature": "0x8a728ebb46617f6d90d4d46cf57055b938c10c4372bdfe16f2fc6fd78434aa8871a0f14b65f139b14aaccd7d0bb3ad1c47724cf7dcb72e18ea1334a36999af281c",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
