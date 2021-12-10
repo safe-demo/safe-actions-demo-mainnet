@@ -18,4 +18,6 @@ jobs:
           check-target: ${{ steps.target.outputs.value }}
           node-url: ${{ secrets.JSON_RPC_NODE }}
           fail-on-unknown-delegatecall: 'false'
+          fail-on-safe-storage-changes: 'true'
+          show-info: 'true'
           simulate-tx: 'true'
