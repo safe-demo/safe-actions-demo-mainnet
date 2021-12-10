@@ -24,10 +24,10 @@ The following secrets should be set on your GitHub repository:
 
 Workflows can be disabled or removed if not required.
 
-#### [monitor.yml](./github/workflows/monitor.yml)
+#### [monitor.yml](./.github/workflows/monitor.yml)
 
 This workflow configures the [Safe Service Monitor](https://github.com/rmeissner/safe-service-monitor-gh-action/blob/main/action.yml) action. It is setup to check every 5 minutes if a new pending multisig transaction is available and create a new PR with the details of that multisig transaction.
 
-#### [simulator.yml](./github/workflows/simulator.yml)
+#### [simulator.yml](./.github/workflows/simulator.yml)
 
 This workflow configures the [Safe Transaction Simulator](https://github.com/rmeissner/safe-simulator-gh-action/blob/main/action.yml) action. It is setup to check run a simulation for each `push` to a branch that is not to `main` (assumed to be the deault branch).
