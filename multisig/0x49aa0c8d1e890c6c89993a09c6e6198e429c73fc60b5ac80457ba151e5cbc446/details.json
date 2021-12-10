@@ -1,0 +1,41 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0x2b129bD5121DC6623c0f71552f52ea39444e22a5",
+      "value": "10000000000000000000",
+      "data": null,
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 42101,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 22,
+      "executionDate": null,
+      "submissionDate": "2021-02-22T15:47:55.930138Z",
+      "modified": "2021-02-22T15:47:55.930138Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0x49aa0c8d1e890c6c89993a09c6e6198e429c73fc60b5ac80457ba151e5cbc446",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": null,
+      "dataDecoded": null,
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x80F59C1D46EFC1Bb18F0AaEc132b77266f00Be9a",
+            "submissionDate": "2021-02-22T15:47:55.999233Z",
+            "transactionHash": null,
+            "signature": "0x913ef27f084f302bf3d6737fce42d0d7ebab5e9aac7acf09cbfe938a1ff094e74e0832a11e858912644bf91c1444362142c463c2dcc4880b4b3298bc0f2340541c",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
