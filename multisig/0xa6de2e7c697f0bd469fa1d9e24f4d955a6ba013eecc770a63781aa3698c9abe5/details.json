@@ -1,0 +1,69 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0x8D29bE29923b68abfDD21e541b9374737B49cdAD",
+      "value": "0",
+      "data": "0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000059004ddc2d193948926d02f9b1fe9e1daa0718270ed5000000000000000000000000000000000000000000000000016345785d8a000000000000000000000000000000000000000000000000000000000000000000041249c58b00000000000000",
+      "operation": 1,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 135275,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 19,
+      "executionDate": null,
+      "submissionDate": "2020-12-14T10:16:07.582479Z",
+      "modified": "2020-12-14T10:16:07.582479Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0xa6de2e7c697f0bd469fa1d9e24f4d955a6ba013eecc770a63781aa3698c9abe5",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"url\":\"https://apps.gnosis-safe.io/compound\",\"name\":\"Compound\"}",
+      "dataDecoded": {
+         "method": "multiSend",
+         "parameters": [
+            {
+               "name": "transactions",
+               "type": "bytes",
+               "value": "0x004ddc2d193948926d02f9b1fe9e1daa0718270ed5000000000000000000000000000000000000000000000000016345785d8a000000000000000000000000000000000000000000000000000000000000000000041249c58b",
+               "valueDecoded": [
+                  {
+                     "operation": 0,
+                     "to": "0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5",
+                     "value": "100000000000000000",
+                     "data": "0x1249c58b",
+                     "dataDecoded": {
+                        "method": "mint",
+                        "parameters": []
+                     }
+                  }
+               ]
+            }
+         ]
+      },
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x80F59C1D46EFC1Bb18F0AaEc132b77266f00Be9a",
+            "submissionDate": "2020-12-14T10:16:07.600454Z",
+            "transactionHash": null,
+            "signature": "0x16cf24cddee1d9b947cc330a57daa5b83c64bfa3b26faf5bfff7c281f2bf8a5558016b5878ce3d7df04339f089e9e444642ec0ee13c2b1482150d37e80e58fdf1c",
+            "signatureType": "EOA"
+         },
+         {
+            "owner": "0x8712128BEA09C9687Df05A5D692F3750F8086C81",
+            "submissionDate": "2021-03-22T00:01:56.036815Z",
+            "transactionHash": null,
+            "signature": "0x3ac535045d56e25d318e8a70f7bd1b26224fd11089c3ff41552f633547b86705764e110f7c889ca9322784846377cd3a986ee9253bdfd2737238ad1a60a1142e1c",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
