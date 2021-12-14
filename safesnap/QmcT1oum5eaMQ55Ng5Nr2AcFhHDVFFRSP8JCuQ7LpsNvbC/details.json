@@ -1,0 +1,94 @@
+{
+   "space": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7"
+   },
+   "proposal": {
+      "address": "0xf19d3e30392359440597ffE1d783ab77aebb2b4D",
+      "sig": "0x1fa424af05a6317b122780277d61bb2b77e8fde67611ed18c04e934e868d1b4b4cceae3869ef49d3fd078bcb7a51bd8e77d858f25b6d12ab5f4b665f111ec1e31b",
+      "data": {
+         "domain": {
+            "name": "snapshot",
+            "version": "0.1.4"
+         },
+         "types": {
+            "Proposal": [
+               {
+                  "name": "from",
+                  "type": "address"
+               },
+               {
+                  "name": "space",
+                  "type": "string"
+               },
+               {
+                  "name": "timestamp",
+                  "type": "uint64"
+               },
+               {
+                  "name": "type",
+                  "type": "string"
+               },
+               {
+                  "name": "title",
+                  "type": "string"
+               },
+               {
+                  "name": "body",
+                  "type": "string"
+               },
+               {
+                  "name": "choices",
+                  "type": "string[]"
+               },
+               {
+                  "name": "start",
+                  "type": "uint64"
+               },
+               {
+                  "name": "end",
+                  "type": "uint64"
+               },
+               {
+                  "name": "snapshot",
+                  "type": "uint64"
+               },
+               {
+                  "name": "network",
+                  "type": "string"
+               },
+               {
+                  "name": "strategies",
+                  "type": "string"
+               },
+               {
+                  "name": "plugins",
+                  "type": "string"
+               },
+               {
+                  "name": "metadata",
+                  "type": "string"
+               }
+            ]
+         },
+         "message": {
+            "space": "gnosis.eth",
+            "type": "single-choice",
+            "title": "GIP-17 Gnosis DAO Safe update AND new treasury management Safe",
+            "body": "Should Gnosis DAO upgrade the Gnosis DAO Safe AND create a separate Safe for Active Treasury Management as detailed in [this forum post](https://forum.gnosis.io/t/gip-17-should-gnosis-dao-upgrade-the-gnosis-dao-safe-and-create-a-separate-safe-for-active-treasury-management/2237)?\n\nTransaction batch 1 updates the safe to the latest version and creates the daughter safe.\nTransaction batch 2 handles all the token transfers.",
+            "choices": [
+               "yes",
+               "no"
+            ],
+            "start": 1639497600,
+            "end": 1640106000,
+            "snapshot": 13804058,
+            "network": "1",
+            "strategies": "[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"GNO\",\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}},{\"name\":\"delegation\",\"params\":{\"symbol\":\"GNO (delegated)\",\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}}]}}]",
+            "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"1\",\"realityAddress\":\"0x0eBaC21F7f6A6599B5fa5f57Baaa974ADFEC4613\",\"txs\":[[{\"to\":\"0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe\",\"data\":\"0x7de7edef000000000000000000000000d9db270c1b5e3bd161e8c8503c55ceabee709552\",\"nonce\":\"0\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function changeMasterCopy(address)\"]},{\"to\":\"0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe\",\"data\":\"0xf08a0323000000000000000000000000f48f2b2d2a534e402487b3ee7c18c33aec0fe5e4\",\"nonce\":\"1\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function setFallbackHandler(address)\"]},{\"to\":\"0xa6B71E26C5e0845f74c812102Ca7114b6a896AB2\",\"data\":\"0x1688f0b9000000000000000000000000d9db270c1b5e3bd161e8c8503c55ceabee709552000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000164b63e800d0000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000140000000000000000000000000f48f2b2d2a534e402487b3ee7c18c33aec0fe5e400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000da0c3e52c977ed3cbc641ff02dd271c3ed55afe000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\",\"nonce\":\"2\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function createProxyWithNonce(address _mastercopy, bytes initializer, uint256 saltNonce)\"]},{\"to\":\"0x849D52316331967b6fF1198e5E32A0eB168D039d\",\"data\":\"0x6a761202000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000014000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001a00000000000000000000000000000000000000000000000000000000000000024610b59250000000000000000000000000da0c3e52c977ed3cbc641ff02dd271c3ed55afe0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000410000000000000000000000000da0c3e52c977ed3cbc641ff02dd271c3ed55afe00000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000\",\"nonce\":\"3\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function execTransaction(address to, uint256 value, bytes data, uint8 operation, uint256 safeTxGas, uint256 baseGas, uint256 gasPrice, address gasToken, address refundReceiver, bytes signatures)\"]}],[{\"to\":\"0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000000000000002dccda800\",\"nonce\":\"4\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address to, uint256 value)\"]},{\"to\":\"0xD533a949740bb3306d119CC777fa900bA034cd52\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000126ef28c697cba00000\",\"nonce\":\"5\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address _to, uint256 _value)\"]},{\"to\":\"0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000045b647aeb121540000\",\"nonce\":\"6\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000010f0cf064dd59200000\",\"nonce\":\"7\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address dst, uint256 rawAmount)\"]},{\"to\":\"0x20BC832ca081b91433ff6c17f85701B6e92486c5\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000000b879ad37b90a5c00\",\"nonce\":\"8\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0x1456688345527bE1f37E9e627DA0837D6f08C925\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000fffa117f703987e8000\",\"nonce\":\"9\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address to, uint256 amount)\"]},{\"to\":\"0x4da27a545c0c5B758a6BA100e3a049001de870f5\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000000213e4db6f526580000\",\"nonce\":\"10\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000002ee7983666cc209a000\",\"nonce\":\"11\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address dst, uint256 rawAmount)\"]},{\"to\":\"0xba100000625a3754423978a60c9317c58a424e3D\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000028acc504d38eea50000\",\"nonce\":\"12\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0x6243d8CEA23066d098a15582d81a598b4e8391F4\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000002697bdd0efe2400000\",\"nonce\":\"13\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address dst, uint256 wad)\"]},{\"to\":\"0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000004e4c78aa88005dcf50000\",\"nonce\":\"14\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address _to, uint256 _value)\"]},{\"to\":\"0xDa007777D86AC6d989cC9f79A73261b3fC5e0DA0\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000943b1377290cbd800000\",\"nonce\":\"15\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address to, uint256 value)\"]},{\"to\":\"0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000014843dd83957137ba0000\",\"nonce\":\"16\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address _to, uint256 _value)\"]},{\"to\":\"0x2ba592F78dB6436527729929AAf6c908497cB200\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000074782cf22aec3430000\",\"nonce\":\"17\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address dst, uint256 rawAmount)\"]},{\"to\":\"0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000fb6be20736008b7c0f24d\",\"nonce\":\"18\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address _to, uint256 _amount)\"]},{\"to\":\"0x03ab458634910AaD20eF5f1C8ee96F1D6ac54919\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000c143e047f03827d2caa7\",\"nonce\":\"19\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address dst, uint256 amount)\"]},{\"to\":\"0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000009cdba3a49b0a4fe0000\",\"nonce\":\"20\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000000471da48ae1d35279be\",\"nonce\":\"21\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address dst, uint256 wad)\"]},{\"to\":\"0xE95A203B1a91a908F9B9CE46459d101078c2c3cb\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000006dd971abfeb3d14caf\",\"nonce\":\"22\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0xFe2e637202056d30016725477c5da089Ab0A043A\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000000802a7f0de7da99981a\",\"nonce\":\"23\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0x030bA81f1c18d280636F32af80b9AAd02Cf0854e\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000001e7e69082febc4912ed\",\"nonce\":\"24\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0x6810e776880C02933D47DB1b9fc05908e5386b96\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000013f1f4f0b93a7f0088a9\",\"nonce\":\"25\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address to, uint256 value)\"]},{\"operation\":\"0\",\"nonce\":\"26\",\"token\":{\"name\":\"Ethereum\",\"decimals\":18,\"symbol\":\"ETH\",\"logoUri\":\"https://gnosis-safe.io/app/static/media/token_eth.bc98bd46.svg\",\"address\":\"main\"},\"recipient\":\"0x849D52316331967b6fF1198e5E32A0eB168D039d\",\"type\":\"transferFunds\",\"data\":\"0x\",\"to\":\"0x849D52316331967b6fF1198e5E32A0eB168D039d\",\"amount\":\"25604000000000000000000\",\"value\":\"25604000000000000000000\"},{\"to\":\"0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000a85316d3a5cb590cc00\",\"nonce\":\"27\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address _recipient, uint256 _amount)\"]},{\"to\":\"0x4212bE3C7b255bA4B29705573ABD023cdcE21542\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000004a59a2bb86456e2025\",\"nonce\":\"28\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0x544c823194218f0640daE8291c1f59752d25faE3\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000021370d73d8cfd0367f3\",\"nonce\":\"29\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0x32296969Ef14EB0c6d29669C550D4a0449130230\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000005d0efba594f5da43cad\",\"nonce\":\"30\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0xF4C0DD9B82DA36C07605df83c8a416F11724d88b\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000006db791f75ffb448bc7a\",\"nonce\":\"31\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]},{\"to\":\"0x5c6Ee304399DBdB9C8Ef030aB642B10820DB8F56\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000050207feac09abeff95bb\",\"nonce\":\"32\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount)\"]}]]}],\"valid\":true}}",
+            "metadata": "{}",
+            "from": "0xf19d3e30392359440597ffE1d783ab77aebb2b4D",
+            "timestamp": 1639495257
+         }
+      }
+   }
+}
