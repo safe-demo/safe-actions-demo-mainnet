@@ -1,0 +1,94 @@
+{
+   "space": {
+      "safe": "0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe"
+   },
+   "proposal": {
+      "address": "0xef364e390fF3f326e3153d0B9c4B944dB42155e5",
+      "sig": "0xfcc8d5d488369fe090a535aaa388860b912448e62cca4cedd09294fd1020a4f408fcff3403e23b14165b6349e3ec7dc84a5d85db2fd6e9cfc45fe94f1edb759a1c",
+      "data": {
+         "domain": {
+            "name": "snapshot",
+            "version": "0.1.4"
+         },
+         "types": {
+            "Proposal": [
+               {
+                  "name": "from",
+                  "type": "address"
+               },
+               {
+                  "name": "space",
+                  "type": "string"
+               },
+               {
+                  "name": "timestamp",
+                  "type": "uint64"
+               },
+               {
+                  "name": "type",
+                  "type": "string"
+               },
+               {
+                  "name": "title",
+                  "type": "string"
+               },
+               {
+                  "name": "body",
+                  "type": "string"
+               },
+               {
+                  "name": "choices",
+                  "type": "string[]"
+               },
+               {
+                  "name": "start",
+                  "type": "uint64"
+               },
+               {
+                  "name": "end",
+                  "type": "uint64"
+               },
+               {
+                  "name": "snapshot",
+                  "type": "uint64"
+               },
+               {
+                  "name": "network",
+                  "type": "string"
+               },
+               {
+                  "name": "strategies",
+                  "type": "string"
+               },
+               {
+                  "name": "plugins",
+                  "type": "string"
+               },
+               {
+                  "name": "metadata",
+                  "type": "string"
+               }
+            ]
+         },
+         "message": {
+            "space": "gnosis.eth",
+            "type": "single-choice",
+            "title": "GIP-18: TickDAO Investment",
+            "body": "Should GnosisDAO implement GIP-18, investing 120.7085 WETH in exchange for 12,500,000 TICK, as detailed in this forum post?\n\nhttps://forum.gnosis.io/t/gip-18-should-gnosisdao-invest-at-tickdao/2262/6\n\nThere are one transaction attached to this proposal:\n\nTransfer 120.7085 WETH to tickdao.eth\n",
+            "choices": [
+               "Yes",
+               "No"
+            ],
+            "start": 1640358000,
+            "end": 1640962800,
+            "snapshot": 13863830,
+            "network": "1",
+            "strategies": "[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"GNO\",\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}},{\"name\":\"delegation\",\"params\":{\"symbol\":\"GNO (delegated)\",\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}}]}}]",
+            "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"1\",\"realityAddress\":\"0x0eBaC21F7f6A6599B5fa5f57Baaa974ADFEC4613\",\"txs\":[[{\"operation\":\"0\",\"nonce\":\"0\",\"token\":{\"name\":\"Wrapped Ether\",\"symbol\":\"WETH\",\"decimals\":18,\"logoUri\":\"https://gnosis-safe-token-logos.s3.amazonaws.com/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2.png\",\"address\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\"},\"recipient\":\"0xcDdd5c658Ca07d86aE9091eB2e28973f0E046372\",\"data\":\"0xa9059cbb000000000000000000000000cddd5c658ca07d86ae9091eb2e28973f0e0463720000000000000000000000000000000000000000000000068b2abd357e3d4000\",\"type\":\"transferFunds\",\"to\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"amount\":\"120708500000000000000\",\"value\":\"0\"}]]}],\"valid\":true}}",
+            "metadata": "{}",
+            "from": "0xef364e390fF3f326e3153d0B9c4B944dB42155e5",
+            "timestamp": 1640294701
+         }
+      }
+   }
+}
