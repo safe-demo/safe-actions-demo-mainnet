@@ -1,0 +1,94 @@
+{
+   "space": {
+      "safe": "0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe"
+   },
+   "proposal": {
+      "address": "0x2408F8a0475D3823A1F4A4bfD86B2a4B80E6eDB6",
+      "sig": "0x55506146afbfda7c01e7c794bac3f67294b46a4cbec28186093c9b7ae6eccba636dcd8e8e753b185071b8b198a372574ef82d43104d81294aeb31400a0fcc25401",
+      "data": {
+         "domain": {
+            "name": "snapshot",
+            "version": "0.1.4"
+         },
+         "types": {
+            "Proposal": [
+               {
+                  "name": "from",
+                  "type": "address"
+               },
+               {
+                  "name": "space",
+                  "type": "string"
+               },
+               {
+                  "name": "timestamp",
+                  "type": "uint64"
+               },
+               {
+                  "name": "type",
+                  "type": "string"
+               },
+               {
+                  "name": "title",
+                  "type": "string"
+               },
+               {
+                  "name": "body",
+                  "type": "string"
+               },
+               {
+                  "name": "choices",
+                  "type": "string[]"
+               },
+               {
+                  "name": "start",
+                  "type": "uint64"
+               },
+               {
+                  "name": "end",
+                  "type": "uint64"
+               },
+               {
+                  "name": "snapshot",
+                  "type": "uint64"
+               },
+               {
+                  "name": "network",
+                  "type": "string"
+               },
+               {
+                  "name": "strategies",
+                  "type": "string"
+               },
+               {
+                  "name": "plugins",
+                  "type": "string"
+               },
+               {
+                  "name": "metadata",
+                  "type": "string"
+               }
+            ]
+         },
+         "message": {
+            "space": "gnosis.eth",
+            "type": "single-choice",
+            "title": "GIP-21: Amendment to GIP-17. Send additional funds to daughter Safe",
+            "body": "Should GnosisDAO implement GIP-21 as detailed in this forum post?\n\nhttps://forum.gnosis.io/t/gip-21-amendment-to-gip-17-send-additional-funds-to-daughter-safe/2699\n\nTransactions in this proposal:\n- Send tokens to Daughter Safe",
+            "choices": [
+               "Yes",
+               "No"
+            ],
+            "start": 1641553200,
+            "end": 1642158000,
+            "snapshot": 13957910,
+            "network": "1",
+            "strategies": "[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"GNO\",\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}},{\"name\":\"delegation\",\"params\":{\"symbol\":\"GNO (delegated)\",\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}}]}}]",
+            "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"1\",\"realityAddress\":\"0x0eBaC21F7f6A6599B5fa5f57Baaa974ADFEC4613\",\"hash\":\"0x71e7f8c0f85999b34e4e26f47a489a1a183d4c3763c8c706f8cc2cce8feb0e45\",\"txs\":[{\"nonce\":0,\"hash\":\"0x4c15e1dbb5ae7b0acef63585e8c9da4f1cdb9d6c376de65478d54add6b4a422d\",\"transactions\":[{\"to\":\"0x6810e776880C02933D47DB1b9fc05908e5386b96\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000019ce94322ec16aab0000\",\"nonce\":0,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address _to, uint256 _value) returns (bool)\"]},{\"to\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000213b9ab63cf587c0000\",\"nonce\":1,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address dst, uint256 wad) returns (bool)\"]},{\"to\":\"0x6243d8CEA23066d098a15582d81a598b4e8391F4\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d0000000000000000000000000000000000000000000003fe05eefc8667740000\",\"nonce\":2,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address dst, uint256 wad) returns (bool)\"]},{\"to\":\"0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000000d4bf19c736bd00000\",\"nonce\":3,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address _recipient, uint256 _amount) returns (bool)\"]},{\"to\":\"0x20BC832ca081b91433ff6c17f85701B6e92486c5\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000000ab64039120130000\",\"nonce\":4,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount) returns (bool)\"]},{\"to\":\"0xba100000625a3754423978a60c9317c58a424e3D\",\"data\":\"0xa9059cbb000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000060846e03e0a8bb0000\",\"nonce\":5,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address recipient, uint256 amount) returns (bool)\"]}]}]}],\"valid\":true}}",
+            "metadata": "{}",
+            "from": "0x2408F8a0475D3823A1F4A4bfD86B2a4B80E6eDB6",
+            "timestamp": 1641553338
+         }
+      }
+   }
+}
