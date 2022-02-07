@@ -1,0 +1,94 @@
+{
+   "space": {
+      "safe": "0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe"
+   },
+   "proposal": {
+      "address": "0xe965484BA4250c446779D4703f1598DC2EA00d12",
+      "sig": "0x2c369fedc6d629aad8e4032d82cec401975b3a3a15e5043cf42dcdfc5839e5f62eeb4fbf54cc02474abe46b93e83c974150d7c6adf961a08d9eb687984e1106001",
+      "data": {
+         "domain": {
+            "name": "snapshot",
+            "version": "0.1.4"
+         },
+         "types": {
+            "Proposal": [
+               {
+                  "name": "from",
+                  "type": "address"
+               },
+               {
+                  "name": "space",
+                  "type": "string"
+               },
+               {
+                  "name": "timestamp",
+                  "type": "uint64"
+               },
+               {
+                  "name": "type",
+                  "type": "string"
+               },
+               {
+                  "name": "title",
+                  "type": "string"
+               },
+               {
+                  "name": "body",
+                  "type": "string"
+               },
+               {
+                  "name": "choices",
+                  "type": "string[]"
+               },
+               {
+                  "name": "start",
+                  "type": "uint64"
+               },
+               {
+                  "name": "end",
+                  "type": "uint64"
+               },
+               {
+                  "name": "snapshot",
+                  "type": "uint64"
+               },
+               {
+                  "name": "network",
+                  "type": "string"
+               },
+               {
+                  "name": "strategies",
+                  "type": "string"
+               },
+               {
+                  "name": "plugins",
+                  "type": "string"
+               },
+               {
+                  "name": "metadata",
+                  "type": "string"
+               }
+            ]
+         },
+         "message": {
+            "space": "gnosis.eth",
+            "type": "single-choice",
+            "title": "GIP-23: 2nd amendment to GIP-17. Add authority of Instadapp SCW to daughter Safe",
+            "body": "Should GnosisDAO add authority of the Instadapp DSA to the Daughter Safe as detailed in this forum post?\n\nhttps://forum.gnosis.io/t/gip-23-2nd-amendment-to-gip-17-add-authority-of-instadapp-scw-to-daughter-safe/3239\n",
+            "choices": [
+               "Yes",
+               "No"
+            ],
+            "start": 1644235200,
+            "end": 1644858000,
+            "snapshot": 14160782,
+            "network": "1",
+            "strategies": "[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"GNO\",\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}},{\"name\":\"delegation\",\"params\":{\"symbol\":\"GNO (delegated)\",\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}}]}}]",
+            "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"1\",\"realityAddress\":\"0x0eBaC21F7f6A6599B5fa5f57Baaa974ADFEC4613\",\"multiSendAddress\":\"0x8D29bE29923b68abfDD21e541b9374737B49cdAD\",\"hash\":\"0x9c4d224ec2211b3cbfacfbec516b127128cbad64353f8535f3eb54ca703ea141\",\"txs\":[{\"hash\":\"0x6c97b5188bc69793f0a280167dbbdfa44424a0dfa21c3fe49fd67044689ce6b7\",\"nonce\":0,\"mainTransaction\":{\"to\":\"0xfa5dcf356a2d80cf0c89d64a18a742edaf8d30e8\",\"data\":\"0x9304c934000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000003d70891b8994feb6cca7022b25c32be92ee372500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000b415554484f524954592d410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000240a3b0a4f000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000000000000000\",\"nonce\":\"0\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function cast(string[] _targetNames, bytes[] _datas, address _origin)\"]},\"transactions\":[{\"to\":\"0xfa5dcf356a2d80cf0c89d64a18a742edaf8d30e8\",\"data\":\"0x9304c934000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000e000000000000000000000000003d70891b8994feb6cca7022b25c32be92ee372500000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000b415554484f524954592d410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000240a3b0a4f000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d00000000000000000000000000000000000000000000000000000000\",\"nonce\":0,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function cast(string[] _targetNames, bytes[] _datas, address _origin)\"]}]}]}],\"valid\":true}}",
+            "metadata": "{}",
+            "from": "0xe965484BA4250c446779D4703f1598DC2EA00d12",
+            "timestamp": 1644261978
+         }
+      }
+   }
+}
