@@ -1,0 +1,94 @@
+{
+   "space": {
+      "safe": "0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe"
+   },
+   "proposal": {
+      "address": "0x46f6B1D519a5bDaf10d49e135c9F611c9bd126e9",
+      "sig": "0x95fd11c351bb0077af47646c5191ad55db0f24f5c3e4f409997c569c46c826662043a7bc2037a82e98ebeabc86a3d27f66e219b59a6d83d30fa72f20157630c800",
+      "data": {
+         "domain": {
+            "name": "snapshot",
+            "version": "0.1.4"
+         },
+         "types": {
+            "Proposal": [
+               {
+                  "name": "from",
+                  "type": "address"
+               },
+               {
+                  "name": "space",
+                  "type": "string"
+               },
+               {
+                  "name": "timestamp",
+                  "type": "uint64"
+               },
+               {
+                  "name": "type",
+                  "type": "string"
+               },
+               {
+                  "name": "title",
+                  "type": "string"
+               },
+               {
+                  "name": "body",
+                  "type": "string"
+               },
+               {
+                  "name": "choices",
+                  "type": "string[]"
+               },
+               {
+                  "name": "start",
+                  "type": "uint64"
+               },
+               {
+                  "name": "end",
+                  "type": "uint64"
+               },
+               {
+                  "name": "snapshot",
+                  "type": "uint64"
+               },
+               {
+                  "name": "network",
+                  "type": "string"
+               },
+               {
+                  "name": "strategies",
+                  "type": "string"
+               },
+               {
+                  "name": "plugins",
+                  "type": "string"
+               },
+               {
+                  "name": "metadata",
+                  "type": "string"
+               }
+            ]
+         },
+         "message": {
+            "space": "gnosis.eth",
+            "type": "single-choice",
+            "title": "GIP-19: Should Gnosis DAO burn 715k GNO?",
+            "body": "Should GnosisDAO burn 715k GNO as detailed in this forum post?\n\nhttps://forum.gnosis.io/t/gip-19-should-gnosis-dao-burn-715k-gno/2312",
+            "choices": [
+               "Yes",
+               "No"
+            ],
+            "start": 1644944400,
+            "end": 1645549200,
+            "snapshot": 14212917,
+            "network": "1",
+            "strategies": "[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"GNO\",\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}},{\"name\":\"delegation\",\"params\":{\"symbol\":\"GNO (delegated)\",\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}}]}}]",
+            "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"1\",\"realityAddress\":\"0x0eBaC21F7f6A6599B5fa5f57Baaa974ADFEC4613\",\"multiSendAddress\":\"0x8D29bE29923b68abfDD21e541b9374737B49cdAD\",\"hash\":\"0x4b65fa053c01b684c193e6ec37b9683c5b4b046458fe25632b5ce85115970441\",\"txs\":[{\"hash\":\"0xe672ce8894a1336fbe0d8d1efdf40f1b497ae55840c7878ab74f18702ff2a82a\",\"nonce\":0,\"mainTransaction\":{\"to\":\"0xeC83f750adfe0e52A8b0DbA6eeB6be5Ba0beE535\",\"data\":\"0xf3fef3a300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000097683a4857a4c8e00000\",\"nonce\":\"0\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function withdraw(address, uint256)\"]},\"transactions\":[{\"to\":\"0xeC83f750adfe0e52A8b0DbA6eeB6be5Ba0beE535\",\"data\":\"0xf3fef3a300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000097683a4857a4c8e00000\",\"nonce\":0,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function withdraw(address, uint256)\"]}]}]}],\"valid\":true}}",
+            "metadata": "{}",
+            "from": "0x46f6B1D519a5bDaf10d49e135c9F611c9bd126e9",
+            "timestamp": 1644957818
+         }
+      }
+   }
+}
