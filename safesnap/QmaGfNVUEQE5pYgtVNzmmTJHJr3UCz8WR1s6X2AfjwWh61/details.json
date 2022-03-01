@@ -1,0 +1,95 @@
+{
+   "space": {
+      "safe": "0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe"
+   },
+   "proposal": {
+      "address": "0x53bcFaEd43441C7bB6149563eC11f756739C9f6A",
+      "sig": "0x9ff13975ffbb17f4ce8b6cfea7f534c864a41b511515442d01f90249cd26366033157ea6ab3c14ec6bd14890aba442621db61caf0f9707ccf8873f38e552dc8d1b",
+      "data": {
+         "domain": {
+            "name": "snapshot",
+            "version": "0.1.4"
+         },
+         "types": {
+            "Proposal": [
+               {
+                  "name": "from",
+                  "type": "address"
+               },
+               {
+                  "name": "space",
+                  "type": "string"
+               },
+               {
+                  "name": "timestamp",
+                  "type": "uint64"
+               },
+               {
+                  "name": "type",
+                  "type": "string"
+               },
+               {
+                  "name": "title",
+                  "type": "string"
+               },
+               {
+                  "name": "body",
+                  "type": "string"
+               },
+               {
+                  "name": "choices",
+                  "type": "string[]"
+               },
+               {
+                  "name": "start",
+                  "type": "uint64"
+               },
+               {
+                  "name": "end",
+                  "type": "uint64"
+               },
+               {
+                  "name": "snapshot",
+                  "type": "uint64"
+               },
+               {
+                  "name": "network",
+                  "type": "string"
+               },
+               {
+                  "name": "strategies",
+                  "type": "string"
+               },
+               {
+                  "name": "plugins",
+                  "type": "string"
+               },
+               {
+                  "name": "metadata",
+                  "type": "string"
+               }
+            ]
+         },
+         "message": {
+            "space": "gnosis.eth",
+            "type": "basic",
+            "title": "GIP-27: Gnosis Guild 🪐 Treasury Allocation to Gnosis Ltd",
+            "body": "This proposal would fund Gnosis Ltd. to support the Gnosis Guild team’s operations and startup costs for one year. The Gnosis Guild Treasury Allocation would foster needs-driven development of the Zodiac DAO tools at a total of USD ~$2.9 Million equivalent, paid in 56% GNO for a contributor incentivization plan, administered by Gnosis Guild with a two-year cliff followed by a one-year vesting period.\n\n**[Full Proposal](https://forum.gnosis.io/t/gip-27-gnosis-guild-treasury-allocation-to-gnosis-ltd/3429)**",
+            "choices": [
+               "For",
+               "Against",
+               "Abstain"
+            ],
+            "start": 1646149323,
+            "end": 1646755200,
+            "snapshot": 14301990,
+            "network": "1",
+            "strategies": "[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"GNO\",\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}},{\"name\":\"delegation\",\"params\":{\"symbol\":\"GNO (delegated)\",\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}}]}}]",
+            "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"1\",\"realityAddress\":\"0x0eBaC21F7f6A6599B5fa5f57Baaa974ADFEC4613\",\"multiSendAddress\":\"0x8D29bE29923b68abfDD21e541b9374737B49cdAD\",\"hash\":\"0x0798c43512c4855cd341c40598cda4a485fe75c0b2966f8b77f94564434ae075\",\"txs\":[{\"hash\":\"0xd926e45b0c13f8aa8ebc579e3b67c51fee0453906faf642651d800838dbbc17c\",\"nonce\":0,\"mainTransaction\":{\"to\":\"0x8D29bE29923b68abfDD21e541b9374737B49cdAD\",\"operation\":\"1\",\"value\":\"0\",\"nonce\":\"0\",\"data\":\"0x8d80ff0a00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000132006810e776880c02933d47db1b9fc05908e5386b9600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044a9059cbb0000000000000000000000004971dd016127f390a3ef6b956ff944d0e2e1e46200000000000000000000000000000000000000000000012a27d53bc048700000006b175474e89094c44da98b954eedeac495271d0f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000044a9059cbb0000000000000000000000004971dd016127f390a3ef6b956ff944d0e2e1e462000000000000000000000000000000000000000000011052331eeffc57c000000000000000000000000000000000\"},\"transactions\":[{\"to\":\"0x6810e776880C02933D47DB1b9fc05908e5386b96\",\"data\":\"0xa9059cbb0000000000000000000000004971dd016127f390a3ef6b956ff944d0e2e1e46200000000000000000000000000000000000000000000012a27d53bc048700000\",\"nonce\":0,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address, uint256)\"]},{\"to\":\"0x6B175474E89094C44Da98b954EedeAC495271d0F\",\"data\":\"0xa9059cbb0000000000000000000000004971dd016127f390a3ef6b956ff944d0e2e1e462000000000000000000000000000000000000000000011052331eeffc57c00000\",\"nonce\":1,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function transfer(address, uint256)\"]}]}]}],\"valid\":true}}",
+            "metadata": "{}",
+            "from": "0x53bcFaEd43441C7bB6149563eC11f756739C9f6A",
+            "timestamp": 1646149542
+         }
+      }
+   }
+}
