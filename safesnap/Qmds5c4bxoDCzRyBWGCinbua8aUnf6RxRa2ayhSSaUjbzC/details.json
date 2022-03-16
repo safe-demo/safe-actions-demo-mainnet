@@ -1,0 +1,94 @@
+{
+   "space": {
+      "safe": "0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe"
+   },
+   "proposal": {
+      "address": "0x46f6B1D519a5bDaf10d49e135c9F611c9bd126e9",
+      "sig": "0x9b97f34975ed8eec2f8eb5d6a83fecdee59b2e03e48cb3abb85069f27c3aa2c26bcdcb27abcc27de002697ba33c9e9959a0646815b4e02d559016726a0ca5a4001",
+      "data": {
+         "domain": {
+            "name": "snapshot",
+            "version": "0.1.4"
+         },
+         "types": {
+            "Proposal": [
+               {
+                  "name": "from",
+                  "type": "address"
+               },
+               {
+                  "name": "space",
+                  "type": "string"
+               },
+               {
+                  "name": "timestamp",
+                  "type": "uint64"
+               },
+               {
+                  "name": "type",
+                  "type": "string"
+               },
+               {
+                  "name": "title",
+                  "type": "string"
+               },
+               {
+                  "name": "body",
+                  "type": "string"
+               },
+               {
+                  "name": "choices",
+                  "type": "string[]"
+               },
+               {
+                  "name": "start",
+                  "type": "uint64"
+               },
+               {
+                  "name": "end",
+                  "type": "uint64"
+               },
+               {
+                  "name": "snapshot",
+                  "type": "uint64"
+               },
+               {
+                  "name": "network",
+                  "type": "string"
+               },
+               {
+                  "name": "strategies",
+                  "type": "string"
+               },
+               {
+                  "name": "plugins",
+                  "type": "string"
+               },
+               {
+                  "name": "metadata",
+                  "type": "string"
+               }
+            ]
+         },
+         "message": {
+            "space": "gnosis.eth",
+            "type": "single-choice",
+            "title": "GIP-24: 1st phase 50K GNO Incentives Program for Gnosis Chain as proposed in GIP-16",
+            "body": "Should GnosisDAO execute the 1st phase 50K GNO Incentives Program for Gnosis Chain as detailed in this forum post?\n\nhttps://forum.gnosis.io/t/gip-24-1st-phase-50k-gno-incentives-program-for-gnosis-chain-as-proposed-in-gip-16/3417",
+            "choices": [
+               "Yes",
+               "No"
+            ],
+            "start": 1647429755,
+            "end": 1648047600,
+            "snapshot": 14397275,
+            "network": "1",
+            "strategies": "[{\"name\":\"erc20-balance-of\",\"network\":\"1\",\"params\":{\"symbol\":\"GNO\",\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}},{\"name\":\"delegation\",\"network\":\"1\",\"params\":{\"symbol\":\"GNO (delegated)\",\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}}]}}]",
+            "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"1\",\"realityAddress\":\"0x0eBaC21F7f6A6599B5fa5f57Baaa974ADFEC4613\",\"multiSendAddress\":\"0x8D29bE29923b68abfDD21e541b9374737B49cdAD\",\"hash\":\"0x0fc4071bbd960c9d558c99ca413b08c950a3011fc926977f881bb1a99e1c4110\",\"txs\":[{\"hash\":\"0xb8526c0a2cf49b47415c37e3a5170fba39ae191e988993ad9f9acaa6633f6ad6\",\"nonce\":0,\"mainTransaction\":{\"to\":\"0xeC83f750adfe0e52A8b0DbA6eeB6be5Ba0beE535\",\"data\":\"0xf3fef3a3000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000a968163f0a57b400000\",\"nonce\":\"0\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function withdraw(address _to, uint256 _value)\"]},\"transactions\":[{\"to\":\"0xeC83f750adfe0e52A8b0DbA6eeB6be5Ba0beE535\",\"data\":\"0xf3fef3a3000000000000000000000000849d52316331967b6ff1198e5e32a0eb168d039d000000000000000000000000000000000000000000000a968163f0a57b400000\",\"nonce\":0,\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function withdraw(address _to, uint256 _value)\"]}]}]}],\"valid\":true}}",
+            "metadata": "{}",
+            "from": "0x46f6B1D519a5bDaf10d49e135c9F611c9bd126e9",
+            "timestamp": 1647434178
+         }
+      }
+   }
+}
