@@ -1,0 +1,67 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "value": "0",
+      "data": "0xf8dc5dd900000000000000000000000000000000000000000000000000000000000000010000000000000000000000009f87c1acaf3afc6a5557c58284d9f8609470b5710000000000000000000000000000000000000000000000000000000000000001",
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 43447,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 16,
+      "executionDate": null,
+      "submissionDate": "2020-12-03T10:26:53.392676Z",
+      "modified": "2020-12-03T10:26:53.392676Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0xeb2fbb74b7a955010b2977edc14589bc28e8862166091523214118a29d80c658",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": null,
+      "dataDecoded": {
+         "method": "removeOwner",
+         "parameters": [
+            {
+               "name": "prevOwner",
+               "type": "address",
+               "value": "0x0000000000000000000000000000000000000001"
+            },
+            {
+               "name": "owner",
+               "type": "address",
+               "value": "0x9F87C1aCaF3Afc6a5557c58284D9F8609470b571"
+            },
+            {
+               "name": "_threshold",
+               "type": "uint256",
+               "value": "1"
+            }
+         ]
+      },
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x80F59C1D46EFC1Bb18F0AaEc132b77266f00Be9a",
+            "submissionDate": "2020-12-03T10:26:53.464087Z",
+            "transactionHash": null,
+            "signature": "0xa70d93d94179978aa55e29d26ba200fbe9518495c6db3de1528795865955eac019ccde34bd8efec18e0edea1ea368a6cd32ab71f909a71fb635cdd56db5bb2211b",
+            "signatureType": "EOA"
+         },
+         {
+            "owner": "0x8712128BEA09C9687Df05A5D692F3750F8086C81",
+            "submissionDate": "2021-02-22T17:13:10.481248Z",
+            "transactionHash": null,
+            "signature": "0xc32b1dc844b61ea7237ea186d910cd5b5502d3055fb580ac37cf50f3860ae44f67a57b85ae5704d41785ce484869ddb8b801b503b220144a1d1fa94ab981b9271c",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
