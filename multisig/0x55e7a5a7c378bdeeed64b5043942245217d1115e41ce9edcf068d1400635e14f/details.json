@@ -1,0 +1,44 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0x4678f0a6958e4D2Bc4F1BAF7Bc52E8F3564f3fE4",
+      "value": "0",
+      "data": "0x8e1a55fc",
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 631301,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 25,
+      "executionDate": null,
+      "submissionDate": "2021-04-29T09:02:18.964548Z",
+      "modified": "2021-04-29T09:02:18.964548Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0x55e7a5a7c378bdeeed64b5043942245217d1115e41ce9edcf068d1400635e14f",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"url\":\"https://app.reflexer.finance/\",\"name\":\"Reflexer\"}",
+      "dataDecoded": {
+         "method": "build",
+         "parameters": []
+      },
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x8712128BEA09C9687Df05A5D692F3750F8086C81",
+            "submissionDate": "2021-04-29T09:02:18.976415Z",
+            "transactionHash": null,
+            "signature": "0x9d4312710d2327b6e983404fc2ad5c5b56b6cfca364c656f1476f25770632e873774d0c38d56574828f2f705088af389231b5a78a64d8ff3591aaab03840cce01b",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
