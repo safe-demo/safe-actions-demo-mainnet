@@ -1,0 +1,41 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "value": "0",
+      "data": null,
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 43808,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 19,
+      "executionDate": null,
+      "submissionDate": "2021-02-22T17:15:07.059585Z",
+      "modified": "2021-02-22T17:15:07.059585Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0xed86571f95857462ed23fbf94588af7ea79505f485749e4e8052d8f0f2d55125",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"name\":\"Compound\",\"url\":\"https://apps.gnosis-safe.io/compound\"}",
+      "dataDecoded": null,
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x8712128BEA09C9687Df05A5D692F3750F8086C81",
+            "submissionDate": "2021-02-22T17:15:07.117895Z",
+            "transactionHash": null,
+            "signature": "0x84080f47e855ef76b263b693a6d873a63b6cf8558d8bf0b2adfdf9086e8979d5734ad9cba58dc9248c2a15e3d496ae66810e85dbc9bdd617b2bb0917f7a963601c",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
