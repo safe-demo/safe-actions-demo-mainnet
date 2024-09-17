@@ -1,0 +1,50 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0xbA453033d328bFdd7799a4643611b616D80ddd97",
+      "value": "100000000000000000",
+      "data": "0xa1903eab0000000000000000000000000000000000000000000000000000000000000000",
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 74201,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 23,
+      "executionDate": null,
+      "submissionDate": "2021-03-02T15:42:59.673061Z",
+      "modified": "2021-03-02T15:42:59.673061Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0x365994ebd518a5635f47684f32dd5cbb399273aa4e07fe0c83adb3b312089878",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"url\":\"https://mymphe.github.io/rinkeby-lido-safe-app/\",\"name\":\"Lido Staking\"}",
+      "dataDecoded": {
+         "method": "submit",
+         "parameters": [
+            {
+               "name": "_referral",
+               "type": "address",
+               "value": "0x0000000000000000000000000000000000000000"
+            }
+         ]
+      },
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x8712128BEA09C9687Df05A5D692F3750F8086C81",
+            "submissionDate": "2021-03-02T15:42:59.839012Z",
+            "transactionHash": null,
+            "signature": "0x0fb93abd0e33ddbe6771f8eb2558e0bb99398f51a88de18f7557b66d35f6a56d48a6939d22367667da2b6e796575286eedaa9bbdc3d19bd018a98e91667b54bc1b",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
