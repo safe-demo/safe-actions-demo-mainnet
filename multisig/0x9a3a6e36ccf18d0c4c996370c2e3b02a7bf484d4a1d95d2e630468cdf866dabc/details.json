@@ -1,0 +1,78 @@
+{
+   "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+   "tx": {
+      "safe": "0xfF501B324DC6d78dC9F983f140B9211c3EdB4dc7",
+      "to": "0x1bD435F3C054b6e901B7b108a0ab7617C808677b",
+      "value": "10000000000000000",
+      "data": "0x0863b7ac00000000000000000000000075e48c954594d64ef9613aeef97ad85370f13807b2b53dca60cae1d1f93f64d80703b888689f28b63c483459183f2f4271fa0308000000000000000000000000000000000000000000000000002386f26fc10000000000000000000000000000000000000000000000000000000000000116e61200000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000002000000000000000000000000eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee000000000000000000000000a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "operation": 0,
+      "gasToken": "0x0000000000000000000000000000000000000000",
+      "safeTxGas": 204503,
+      "baseGas": 0,
+      "gasPrice": "0",
+      "refundReceiver": "0x0000000000000000000000000000000000000000",
+      "nonce": 29,
+      "executionDate": null,
+      "submissionDate": "2021-07-19T09:55:41.723369Z",
+      "modified": "2021-07-19T09:55:41.733991Z",
+      "blockNumber": null,
+      "transactionHash": null,
+      "safeTxHash": "0x9a3a6e36ccf18d0c4c996370c2e3b02a7bf484d4a1d95d2e630468cdf866dabc",
+      "executor": null,
+      "isExecuted": false,
+      "isSuccessful": null,
+      "ethGasPrice": null,
+      "gasUsed": null,
+      "fee": null,
+      "origin": "{\"url\":\"https://paraswap.io\",\"name\":\"ParaSwap\"}",
+      "dataDecoded": {
+         "method": "swapOnUniswapFork",
+         "parameters": [
+            {
+               "name": "factory",
+               "type": "address",
+               "value": "0x75e48C954594d64ef9613AeEF97Ad85370F13807"
+            },
+            {
+               "name": "initCode",
+               "type": "bytes32",
+               "value": "0xb2b53dca60cae1d1f93f64d80703b888689f28b63c483459183f2f4271fa0308"
+            },
+            {
+               "name": "amountIn",
+               "type": "uint256",
+               "value": "10000000000000000"
+            },
+            {
+               "name": "amountOutMin",
+               "type": "uint256",
+               "value": "18277906"
+            },
+            {
+               "name": "path",
+               "type": "address[]",
+               "value": [
+                  "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+                  "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+               ]
+            },
+            {
+               "name": "referrer",
+               "type": "uint8",
+               "value": "1"
+            }
+         ]
+      },
+      "confirmationsRequired": null,
+      "confirmations": [
+         {
+            "owner": "0x9F87C1aCaF3Afc6a5557c58284D9F8609470b571",
+            "submissionDate": "2021-07-19T09:55:41.733991Z",
+            "transactionHash": null,
+            "signature": "0x1b7028814b021d522e113442886fc3bc2c57f88dec597f30ebafdafbfb066ec727842e3e976a1814dc90f1e942190dc15f9e900cec4039dd6f8ae10b70f55d321b",
+            "signatureType": "EOA"
+         }
+      ],
+      "signatures": null
+   }
+}
