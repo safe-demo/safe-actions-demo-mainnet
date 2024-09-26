@@ -1,0 +1,94 @@
+{
+  "space": {
+    "safe": "0x0DA0C3e52C977Ed3cBc641fF02DD271c3ED55aFe"
+  },
+  "proposal": {
+    "address": "0x53bcFaEd43441C7bB6149563eC11f756739C9f6A",
+    "sig": "0xcc71914f443a9c4b1b7dcaca05063bf9ff28b286210013e4ef3aabad24cc95df40dc44072dc898d3f723a72fcd809c95fee9ab240bc245d2f7133d43a0cc17391b",
+    "data": {
+      "domain": {
+        "name": "snapshot",
+        "version": "0.1.4"
+      },
+      "types": {
+        "Proposal": [
+          {
+            "name": "from",
+            "type": "address"
+          },
+          {
+            "name": "space",
+            "type": "string"
+          },
+          {
+            "name": "timestamp",
+            "type": "uint64"
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "type": "string"
+          },
+          {
+            "name": "choices",
+            "type": "string[]"
+          },
+          {
+            "name": "start",
+            "type": "uint64"
+          },
+          {
+            "name": "end",
+            "type": "uint64"
+          },
+          {
+            "name": "snapshot",
+            "type": "uint64"
+          },
+          {
+            "name": "network",
+            "type": "string"
+          },
+          {
+            "name": "strategies",
+            "type": "string"
+          },
+          {
+            "name": "plugins",
+            "type": "string"
+          },
+          {
+            "name": "metadata",
+            "type": "string"
+          }
+        ]
+      },
+      "message": {
+        "space": "gnosis.eth",
+        "type": "single-choice",
+        "title": "GIP-16 Gnosis Chain",
+        "body": "Should GnosisDAO implement GIP-16, as detailed in this [forum post]() (also available on [IPFS](https://gateway.pinata.cloud/ipfs/Qmd83zavdSrUDNZEsSdixt7aRoBeEo6pVHSwZhMmyKygjX))?\n\nThere are four transactions attached to this proposal:\n1. Withdraw 285,398 GNO from the vesting contract\n2. Wrap 20,000 ETH to WETH\n3. Approve 20,000 WETH to the Gnosis Auction contract\n4. Initiate an Auction on Gnosis Auction\n\nPlease see the [transaction simulation](https://dashboard.tenderly.co/giacomolicari/xdaignomergetest/simulator/4ba7a377-c418-44a6-a70c-9ce7d984c765) for the expected result.",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "start": 1638291600,
+        "end": 1638896400,
+        "snapshot": 13716005,
+        "network": "1",
+        "strategies": "[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"GNO\",\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}},{\"name\":\"delegation\",\"params\":{\"symbol\":\"GNO (delegated)\",\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"address\":\"0x6810e776880c02933d47db1b9fc05908e5386b96\",\"decimals\":18}}]}}]",
+        "plugins": "{\"safeSnap\":{\"safes\":[{\"network\":\"1\",\"realityAddress\":\"0x0eBaC21F7f6A6599B5fa5f57Baaa974ADFEC4613\",\"txs\":[[{\"to\":\"0xeC83f750adfe0e52A8b0DbA6eeB6be5Ba0beE535\",\"data\":\"0xf3fef3a3000000000000000000000000c96a9f96a23e083fc1423c3791bce752a77f170b000000000000000000000000000000000000000000003c6f74e2809715980000\",\"nonce\":\"0\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function withdraw(address _to, uint256 _value)\"]},{\"operation\":\"0\",\"nonce\":\"1\",\"token\":{\"name\":\"Ethereum\",\"decimals\":18,\"symbol\":\"ETH\",\"logoUri\":\"https://gnosis-safe.io/app/static/media/token_eth.bc98bd46.svg\",\"address\":\"main\"},\"recipient\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"type\":\"transferFunds\",\"data\":\"0x\",\"to\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"amount\":\"20000000000000000000000\",\"value\":\"20000000000000000000000\"},{\"to\":\"0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2\",\"data\":\"0x095ea7b30000000000000000000000000b7ffc1f4ad541a4ed16b40d8c37f0929158d10100000000000000000000000000000000000000000000043c33c1937564800000\",\"nonce\":\"2\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function approve(address guy, uint256 wad) returns (bool)\"]},{\"to\":\"0x0b7fFc1f4AD541A4Ed16b40D8c37f0929158D101\",\"data\":\"0x0a4cd6c9000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc20000000000000000000000006810e776880c02933d47db1b9fc05908e5386b960000000000000000000000000000000000000000000000000000000061c08c600000000000000000000000000000000000000000000000000000000061c08c6000000000000000000000000000000000000000000000043c33c193756480000000000000000000000000000000000000000000000000234b048ac830a5aa000000000000000000000000000000000000000000000000000006f05b59d3b2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000000000\",\"nonce\":\"3\",\"operation\":\"0\",\"type\":\"contractInteraction\",\"value\":\"0\",\"abi\":[\"function initiateAuction(address _auctioningToken, address _biddingToken, uint256 orderCancellationEndDate, uint256 auctionEndDate, uint96 _auctionedSellAmount, uint96 _minBuyAmount, uint256 minimumBiddingAmountPerOrder, uint256 minFundingThreshold, bool isAtomicClosureAllowed, address accessManagerContract, bytes accessManagerContractData) returns (uint256)\"]}]]}],\"valid\":true}}",
+        "metadata": "{}",
+        "from": "0x53bcFaEd43441C7bB6149563eC11f756739C9f6A",
+        "timestamp": 1638293013
+      }
+    }
+  }
+}
